@@ -1,0 +1,5 @@
+Name: login-api
+Host: 0.0.0.0
+Port: 1012
+DB:
+  DataSource: root:root@tcp(localhost:3306)/go?charset=utf8&parseTime=True&loc=Local
