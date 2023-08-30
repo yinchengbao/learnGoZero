@@ -6,7 +6,13 @@ type DB struct {
 	DataSource string
 }
 
+type Auth struct {
+	AccessSecret string
+	AccessExpire int64
+}
+
 type Config struct {
 	rest.RestConf
-	Db DB
+	Db   DB
+	Auth Auth
 }
