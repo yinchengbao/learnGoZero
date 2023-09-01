@@ -1,0 +1,30 @@
+{
+  "name": "login",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "@next/env": "^13.4.19",
+    "@opentiny/vue": "^3.10.0",
+    "@opentiny/vue-vite-import": "^1.1.5",
+    "axios": "^1.5.0",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.3.2",
+    "@types/node": "^20.5.7",
+    "@vitejs/plugin-vue": "^4.3.4",
+    "@vue/eslint-config-prettier": "^8.0.0",
+    "eslint": "^8.46.0",
+    "eslint-plugin-vue": "^9.16.1",
+    "prettier": "^3.0.0",
+    "vite": "^4.4.9"
+  }
+}
